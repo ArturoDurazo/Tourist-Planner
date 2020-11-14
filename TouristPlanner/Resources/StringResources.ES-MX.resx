@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="box_aristaDuplicada" xml:space="preserve">
+    <value>No puedes tener dos carreteras en el mismo lugar dirigidas hacia la misma ciudad.</value>
+  </data>
+  <data name="box_ciudadAgregada" xml:space="preserve">
+    <value>Se añadio exitosamente</value>
+  </data>
+  <data name="box_ciudadEditada" xml:space="preserve">
+    <value>Se edito exitosamente</value>
+  </data>
+  <data name="box_ciudadEliminada" xml:space="preserve">
+    <value>Se elimino exitosamente</value>
+  </data>
+  <data name="box_errorCiudadBorrar" xml:space="preserve">
+    <value>No puedes borrar una ciudad con rutas. Borra la ruta primero.</value>
+  </data>
+  <data name="box_noDuplicates" xml:space="preserve">
+    <value>No se permiten duplicados</value>
+  </data>
+  <data name="box_noExiste1" xml:space="preserve">
+    <value>La ciudad</value>
+  </data>
+  <data name="box_noExiste2" xml:space="preserve">
+    <value>no existe</value>
+  </data>
+  <data name="box_rutaAgregada" xml:space="preserve">
+    <value>La ruta ha sido añadida</value>
+  </data>
+  <data name="box_rutaEditada" xml:space="preserve">
+    <value>La ruta ha sido editada</value>
+  </data>
+  <data name="box_rutaElminada" xml:space="preserve">
+    <value>La ruta ha sido eliminada</value>
+  </data>
+  <data name="box_rutaNoExiste1" xml:space="preserve">
+    <value>La ruta </value>
+  </data>
+  <data name="box_rutaNoExiste2" xml:space="preserve">
+    <value> no existe</value>
+  </data>
+  <data name="busquedaTitle" xml:space="preserve">
+    <value>Búsqueda</value>
+  </data>
+  <data name="busqueda_ambos" xml:space="preserve">
+    <value>Ambos</value>
+  </data>
+  <data name="busqueda_ambosSeleccionado" xml:space="preserve">
+    <value>Ambos</value>
+  </data>
+  <data name="busqueda_costo" xml:space="preserve">
+    <value>Costo</value>
+  </data>
+  <data name="busqueda_criterio" xml:space="preserve">
+    <value>Criterio de búsqueda</value>
+  </data>
+  <data name="busqueda_distancia" xml:space="preserve">
+    <value>Distancia</value>
+  </data>
+  <data name="busqueda_inicio" xml:space="preserve">
+    <value>Ciudad de Inicio</value>
+  </data>
+  <data name="busqueda_lbl_costo" xml:space="preserve">
+    <value>Costo</value>
+  </data>
+  <data name="busqueda_lbl_distancia" xml:space="preserve">
+    <value>Distancia</value>
+  </data>
+  <data name="busqueda_lbl_inicia" xml:space="preserve">
+    <value>Inicia</value>
+  </data>
+  <data name="busqueda_lbl_termina" xml:space="preserve">
+    <value>Termina</value>
+  </data>
+  <data name="busqueda_lbl_tiempo" xml:space="preserve">
+    <value>Tiempo</value>
+  </data>
+  <data name="busqueda_lbl_transporte" xml:space="preserve">
+    <value>Medio de transporte</value>
+  </data>
+  <data name="busqueda_medioTransporte" xml:space="preserve">
+    <value>Medio de Transporte</value>
+  </data>
+  <data name="busqueda_mismo" xml:space="preserve">
+    <value>Seleccionaste el mismo nodo. Selecciona otro.</value>
+  </data>
+  <data name="busqueda_privado" xml:space="preserve">
+    <value>Auto rentado</value>
+  </data>
+  <data name="busqueda_privadoSeleccionado" xml:space="preserve">
+    <value>Auto Rentado</value>
+  </data>
+  <data name="busqueda_publico" xml:space="preserve">
+    <value>Transporte público</value>
+  </data>
+  <data name="busqueda_publicoSeleccionado" xml:space="preserve">
+    <value>Camion</value>
+  </data>
+  <data name="busqueda_rutaCorta" xml:space="preserve">
+    <value>Ruta más corta</value>
+  </data>
+  <data name="busqueda_termina" xml:space="preserve">
+    <value>Ciudad donde termina</value>
+  </data>
+  <data name="busqueda_tiempo" xml:space="preserve">
+    <value>Tiempo</value>
+  </data>
+  <data name="busqueda_totales" xml:space="preserve">
+    <value>Totales</value>
+  </data>
+  <data name="busqueda__rutaAlterna" xml:space="preserve">
+    <value>Ruta alterna</value>
+  </data>
+  <data name="cbx_nigunaSeleccion" xml:space="preserve">
+    <value>NA</value>
+  </data>
+  <data name="ciudadTitle" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="ciudad_altaCiudad" xml:space="preserve">
+    <value>Alta de ciudad</value>
+  </data>
+  <data name="ciudad_bajaCiudad" xml:space="preserve">
+    <value>Baja de ciudad</value>
+  </data>
+  <data name="ciudad_cambiarDato" xml:space="preserve">
+    <value>Cambiar dato en ciudad</value>
+  </data>
+  <data name="ciudad_coordX" xml:space="preserve">
+    <value>Coordenada x</value>
+  </data>
+  <data name="ciudad_coordY" xml:space="preserve">
+    <value>Coordenada y</value>
+  </data>
+  <data name="ciudad_existentes" xml:space="preserve">
+    <value>Ciudades existentes</value>
+  </data>
+  <data name="ciudad_localizacion" xml:space="preserve">
+    <value>Localización</value>
+  </data>
+  <data name="ciudad_nombre" xml:space="preserve">
+    <value>Nombre de la ciudad</value>
+  </data>
+  <data name="informacionTitle" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="info_idioma" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="info_nombre" xml:space="preserve">
+    <value>Planeador Turístico</value>
+  </data>
+  <data name="menuTitle_Planeacion" xml:space="preserve">
+    <value>Planeador Turístico</value>
+  </data>
+  <data name="menu_buscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="menu_busquedas" xml:space="preserve">
+    <value>Búsquedas</value>
+  </data>
+  <data name="menu_ciudad" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="menu_info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="menu_informacion" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="menu_mapa" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="menu_ruta" xml:space="preserve">
+    <value>Ruta</value>
+  </data>
+  <data name="menu_salir" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="rutas_existentes" xml:space="preserve">
+    <value>Rutas existentes</value>
+  </data>
+  <data name="rutaTitle" xml:space="preserve">
+    <value>Ruta</value>
+  </data>
+  <data name="ruta_altaRuta" xml:space="preserve">
+    <value>Alta de ruta</value>
+  </data>
+  <data name="ruta_autoPrivado" xml:space="preserve">
+    <value>Datos si se utiliza carro rentado</value>
+  </data>
+  <data name="ruta_bajaRuta" xml:space="preserve">
+    <value>Baja de ruta</value>
+  </data>
+  <data name="ruta_cambiarRuta" xml:space="preserve">
+    <value>Cambiar dato en una ruta</value>
+  </data>
+  <data name="ruta_ciudadInicio" xml:space="preserve">
+    <value>Ciudad de Inicio</value>
+  </data>
+  <data name="ruta_ciudadTermina" xml:space="preserve">
+    <value>Ciudad donde termina</value>
+  </data>
+  <data name="ruta_costoPrivado" xml:space="preserve">
+    <value>Costo si se recorre en auto rentado</value>
+  </data>
+  <data name="ruta_costoPublico" xml:space="preserve">
+    <value>Costo si se recorre en transporte público</value>
+  </data>
+  <data name="ruta_distancia" xml:space="preserve">
+    <value>Distancia</value>
+  </data>
+  <data name="ruta_nombreRuta" xml:space="preserve">
+    <value>Nombre de la ruta</value>
+  </data>
+  <data name="ruta_tiempoPrivado" xml:space="preserve">
+    <value>Tiempo si se recorre en auto rentado</value>
+  </data>
+  <data name="ruta_tiempoPublico" xml:space="preserve">
+    <value>Tiempo si se recorre en transporte público</value>
+  </data>
+  <data name="ruta_transportePublico" xml:space="preserve">
+    <value>Datos si se utiliza transporte público</value>
+  </data>
+  <data name="undirected_noRutaAlterna" xml:space="preserve">
+    <value>No existe una ruta alterna a la más corta</value>
+  </data>
+</root>
